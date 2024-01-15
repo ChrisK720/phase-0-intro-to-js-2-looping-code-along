@@ -31,7 +31,7 @@ function writeCards(names,descri) {
     const newArr = []
     for(let i = 0; i < names.length; i++){
       const name = names[i]
-      const message = `Thank you, ${name}, for the wonderful ${descri} gift`
+      const message = `Thank you, ${name}, for the wonderful ${descri} gift!`
       message.toString()
       newArr.push(message)
       console.log(newArr)
